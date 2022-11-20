@@ -13,6 +13,7 @@ public class Tc1_Test {
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://myntra.com");
 	}
 
